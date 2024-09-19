@@ -133,11 +133,14 @@ main{
 .about-info{
   text-align: center;
 }
+
+#what-i-do-description{
+  padding: 30px 150px;
+}
 /* about section */
 .About{
   border-radius: 10px;
   background: #FFF8F3;
   padding: 130px;
   margin: 130px;
-
 }
