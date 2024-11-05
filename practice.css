@@ -1,0 +1,102 @@
+body{
+  font-family: Open Sans;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+.nav-title{
+  color: var(--Dark-01, #181818);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.primary-button{
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: 0;
+  padding: 19px 35px;
+  cursor: pointer;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+ 
+nav li{
+  margin-right: 87px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+}
+
+.header{
+  background: #FFF8F3;
+  background-image: url('images/header_bg.png'), url('images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
+}
+
+.banner{
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content{
+  max-width: 500px;
+}
+.banner-greeting{
+  color: #474747;
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 0;
+}
+
+.banner .profile{
+  max-width: 584px;
+}
+
+.banner-title{
+  font-size: 85px;
+font-style: normal;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+
+.banner-description{
+max-width: 585px;
+margin-bottom: 20px;
+}
+
+
+.profile{
+width: 584px;
+height: 676px;
+}
+
+header p{
+  color:  #757575;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
